@@ -1,0 +1,170 @@
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 ~
+$ cd e:
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e
+$ cd Git/
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git
+$ ls -al
+total 16
+drwxr-xr-x 1 Sailaja Manchiraju 197121 0 Apr  3 12:16 ./
+drwxr-xr-x 1 Sailaja Manchiraju 197121 0 Apr  3 10:54 ../
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git
+$ git init GitDemo
+Initialized empty Git repository in E:/Git/GitDemo/.git/
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git
+$ cd GitDemo/
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git/GitDemo (master)
+$ git init
+Reinitialized existing Git repository in E:/Git/GitDemo/.git/
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git/GitDemo (master)
+$ echo "Welcome Priyanka" >> welcome.txt
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git/GitDemo (master)
+$ ls -al
+total 5
+drwxr-xr-x 1 Sailaja Manchiraju 197121  0 Apr  3 12:27 ./
+drwxr-xr-x 1 Sailaja Manchiraju 197121  0 Apr  3 12:17 ../
+drwxr-xr-x 1 Sailaja Manchiraju 197121  0 Apr  3 12:19 .git/
+-rw-r--r-- 1 Sailaja Manchiraju 197121 17 Apr  3 12:27 welcome.txt
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git/GitDemo (master)
+$ cat welcome.txt
+Welcome Priyanka
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git/GitDemo (master)
+$ git add welcome.txt
+warning: LF will be replaced by CRLF in welcome.txt.
+The file will have its original line endings in your working directory
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git/GitDemo (master)
+$ git commit
+[master (root-commit) 9a3c67c] Priyanka Kabali
+ 1 file changed, 1 insertion(+)
+ create mode 100644 welcome.txt
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git/GitDemo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git/GitDemo (master)
+$ git commit -m "first commit"
+On branch master
+nothing to commit, working tree clean
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git/GitDemo (master)
+$ git remote add origin https://github.com/SaiPriyankaMalladi/LearnTodayWebAPI.git
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git/GitDemo (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 245 bytes | 5.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/SaiPriyankaMalladi/LearnTodayWebAPI.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git/GitDemo (master)
+$ cd e:
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e
+$ cd GitDemo/
+bash: cd: GitDemo/: No such file or directory
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e
+$ cd Git/
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git
+$ cd Git/
+bash: cd: Git/: No such file or directory
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git
+$ cd e:
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e
+$ cd Git/
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git
+$ cd GitDemo/
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git/GitDemo (master)
+$ ls -al
+total 6
+drwxr-xr-x 1 Sailaja Manchiraju 197121   0 Apr  3 16:13 ./
+drwxr-xr-x 1 Sailaja Manchiraju 197121   0 Apr  3 12:17 ../
+drwxr-xr-x 1 Sailaja Manchiraju 197121   0 Apr  3 12:41 .git/
+-rw-r--r-- 1 Sailaja Manchiraju 197121 348 Apr  3 16:12 mydemo.log
+-rw-r--r-- 1 Sailaja Manchiraju 197121  17 Apr  3 12:27 welcome.txt
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git/GitDemo (master)
+$ notepad++ ,gitignore
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git/GitDemo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ,gitignore
+        mydemo.log
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git/GitDemo (master)
+$ ^C
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git/GitDemo (master)
+$ cd e:
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e
+$ cd Git/
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git
+$ cd GitDemo/
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git/GitDemo (master)
+$ ls -al
+total 7
+-rw-r--r-- 1 Sailaja Manchiraju 197121   6 Apr  3 16:18 ,gitignore
+drwxr-xr-x 1 Sailaja Manchiraju 197121   0 Apr  3 16:17 ./
+drwxr-xr-x 1 Sailaja Manchiraju 197121   0 Apr  3 12:17 ../
+drwxr-xr-x 1 Sailaja Manchiraju 197121   0 Apr  3 16:18 .git/
+-rw-r--r-- 1 Sailaja Manchiraju 197121 348 Apr  3 16:12 mydemo.log
+-rw-r--r-- 1 Sailaja Manchiraju 197121  17 Apr  3 12:27 welcome.txt
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git/GitDemo (master)
+$ notepad++ .gitignore
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git/GitDemo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ,gitignore
+        .gitignore
+        mydemo.log
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git/GitDemo (master)
+$ git remote add origin https://github.com/SaiPriyankaMalladi/LearnTodayWebAPI.git
+error: remote origin already exists.
+
+Sailaja Manchiraju@DESKTOP-A0EDD7R MINGW64 /e/Git/GitDemo (master)
+$ git push origin master
+Everything up-to-date
+
